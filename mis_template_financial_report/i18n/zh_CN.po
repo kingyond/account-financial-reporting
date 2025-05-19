@@ -1,0 +1,108 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mis_template_financial_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2022-05-04 12:05+0000\n"
+"Last-Translator: Kingyond <goole4me@gmail.com>\n"
+"Language-Team: none\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.3.2\n"
+
+#. module: mis_template_financial_report
+#: model:ir.model.fields,field_description:mis_template_financial_report.field_mis_report_instance__allow_horizontal
+msgid "Allow Horizontal"
+msgstr "允许水平"
+
+#. module: mis_template_financial_report
+#: model:mis.report.kpi,description:mis_template_financial_report.kpi_assets
+msgid "Assets"
+msgstr "资产"
+
+#. module: mis_template_financial_report
+#: model:mis.report,name:mis_template_financial_report.report_bs
+msgid "Balance Sheet"
+msgstr "资产负债表"
+
+#. module: mis_template_financial_report
+#: model:ir.model.fields,field_description:mis_template_financial_report.field_mis_report_instance__horizontal
+msgid "Horizontal"
+msgstr "水平"
+
+#. module: mis_template_financial_report
+#: model:mis.report.kpi,description:mis_template_financial_report.kpi_liability
+msgid "Liabilities"
+msgstr "负债"
+
+#. module: mis_template_financial_report
+#: model:mis.report.kpi,description:mis_template_financial_report.kpi_liability_total
+msgid "Liability"
+msgstr "负债"
+
+#. module: mis_template_financial_report
+#: model:mis.report.kpi,description:mis_template_financial_report.kpi_loss
+msgid "Loss"
+msgstr "亏损"
+
+#. module: mis_template_financial_report
+#: model:ir.model,name:mis_template_financial_report.model_mis_report_instance
+msgid "MIS Report Instance"
+msgstr "MIS 报告实例"
+
+#. module: mis_template_financial_report
+#: model:ir.model,name:mis_template_financial_report.model_mis_report_kpi
+msgid "MIS Report KPI"
+msgstr "MIS 报告关键绩效指标"
+
+#. module: mis_template_financial_report
+#: model:mis.report.kpi,description:mis_template_financial_report.kpi_profit
+msgid "Profit"
+msgstr "利润"
+
+#. module: mis_template_financial_report
+#: model:mis.report,name:mis_template_financial_report.report_pl
+msgid "Profit & Loss"
+msgstr "损益表"
+
+#. module: mis_template_financial_report
+#: model:mis.report.kpi,description:mis_template_financial_report.kpi_liability_pl_subreport
+msgid "Profit / Loss"
+msgstr "利润 / 亏损"
+
+#. module: mis_template_financial_report
+#: model:mis.report.kpi,description:mis_template_financial_report.kpi_pl_to_report
+msgid "Profit or loss to report"
+msgstr "报告的利润或亏损"
+
+#. module: mis_template_financial_report
+#: model:ir.model.fields,field_description:mis_template_financial_report.field_mis_report_kpi__split_after
+msgid "Split After"
+msgstr "之后拆分"
+
+#. module: mis_template_financial_report
+#: model:ir.model.fields,help:mis_template_financial_report.field_mis_report_kpi__split_after
+msgid ""
+"Split the table after this KPI. This allows displaying KPIs next to each "
+"other in non-comparison mode"
+msgstr "在此关键绩效指标之后拆分表格。这允许在非比较模式下并排显示关键绩效指标"
+
+#. module: mis_template_financial_report
+#: model_terms:ir.ui.view,arch_db:mis_template_financial_report.mis_report_view_kpi_form
+msgid "Splitting"
+msgstr "拆分"
+
+#~ msgid "Display Name"
+#~ msgstr "显示名称"
+
+#~ msgid "ID"
+#~ msgstr "编号"
+
+#~ msgid "Last Modified on"
+#~ msgstr "最后修改时间"

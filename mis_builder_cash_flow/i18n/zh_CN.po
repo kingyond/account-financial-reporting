@@ -1,0 +1,310 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mis_builder_cash_flow
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Kingyond <goole4me@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.instance.period,name:mis_builder_cash_flow.mis_period_plus_1w
+msgid "+1w"
+msgstr "+1周"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.instance.period,name:mis_builder_cash_flow.mis_period_plus_2w
+msgid "+2w"
+msgstr "+2周"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.instance.period,name:mis_builder_cash_flow.mis_period_plus_3w
+msgid "+3w"
+msgstr "+3周"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.instance.period,name:mis_builder_cash_flow.mis_period_plus_4w
+msgid "+4w"
+msgstr "+4周"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.instance.period,name:mis_builder_cash_flow.mis_period_plus_5w
+msgid "+5w"
+msgstr "+5周"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.instance.period,name:mis_builder_cash_flow.mis_period_plus_6w
+msgid "+6w"
+msgstr "+6周"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.instance.period,name:mis_builder_cash_flow.mis_period_plus_7w
+msgid "+7w"
+msgstr "+7周"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.instance.period,name:mis_builder_cash_flow.mis_period_plus_8w
+msgid "+8w"
+msgstr "+8周"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model,name:mis_builder_cash_flow.model_account_account
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__account_id
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__account_id
+#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_forecast_line_view_search
+#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_search_view
+msgid "Account"
+msgstr "科目"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,help:mis_builder_cash_flow.field_mis_cash_flow__account_type
+msgid ""
+"Account Type is used for information purpose, to generate country-specific "
+"legal reports, and set the rules to close a fiscal year and generate opening"
+" entries."
+msgstr "科目类型用于信息目的，生成国家特定的法定报告，并设置关闭财年和生成开账分录的规则。"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_balance
+msgid "BALANCE"
+msgstr "余额"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__balance
+msgid "Balance"
+msgstr "余额"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report,name:mis_builder_cash_flow.mis_report_cash_flow
+#: model:mis.report.instance,name:mis_builder_cash_flow.mis_instance_cash_flow
+msgid "Cash Flow"
+msgstr "现金流量"
+
+#. module: mis_builder_cash_flow
+#: model:ir.actions.act_window,name:mis_builder_cash_flow.action_mis_cash_flow_forecast_line
+#: model:ir.ui.menu,name:mis_builder_cash_flow.menu_mis_cash_flow_forecast_line
+msgid "Cash Flow Forecast Line"
+msgstr "现金流量预测行"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__company_id
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__company_id
+#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_forecast_line_view_search
+#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_search_view
+msgid "Company"
+msgstr "公司"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__credit
+msgid "Credit"
+msgstr "贷方"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.instance.period,name:mis_builder_cash_flow.mis_period_current
+msgid "Current"
+msgstr "当前"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__date
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__date
+#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_forecast_line_view_search
+#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_search_view
+msgid "Date"
+msgstr "日期"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__debit
+msgid "Debit"
+msgstr "借方"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__display_name
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields.selection,name:mis_builder_cash_flow.selection__mis_cash_flow__line_type__forecast_line
+#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_search_view
+msgid "Forecast Line"
+msgstr "预测行"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_account_account__hide_in_cash_flow
+msgid "Hide in Cash Flow?"
+msgstr "在现金流量中隐藏？"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__id
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_in_total
+msgid "IN TOTAL"
+msgstr "总收入"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_in_forecast
+msgid "In forecast"
+msgstr "预测收入"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_in_receivable
+msgid "In receivable"
+msgstr "应收款项"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__move_line_id
+#: model:ir.model.fields.selection,name:mis_builder_cash_flow.selection__mis_cash_flow__line_type__move_line
+#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_search_view
+msgid "Journal Item"
+msgstr "凭证行"
+
+#. module: mis_builder_cash_flow
+#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_search_view
+msgid "Journal items where matching number isn't set"
+msgstr "未设置匹配编号的凭证行"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_aliquidity
+msgid "LIQUIDITY"
+msgstr "流动性"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__line_type
+#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_search_view
+msgid "Line Type"
+msgstr "行类型"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model,name:mis_builder_cash_flow.model_mis_cash_flow
+msgid "MIS Cash Flow"
+msgstr "MIS现金流量"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model,name:mis_builder_cash_flow.model_mis_cash_flow_forecast_line
+#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_forecast_line_view_form
+msgid "MIS Cash Flow Forecast Line"
+msgstr "MIS现金流量预测行"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__full_reconcile_id
+msgid "Matching Number"
+msgstr "匹配编号"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__name
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__name
+msgid "Name"
+msgstr "名称"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_out_total
+msgid "OUT TOTAL"
+msgstr "总支出"
+
+#. module: mis_builder_cash_flow
+#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_tree_view
+msgid "Open Journal Item / Forecast Line"
+msgstr "打开凭证行/预测行"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_out_forecast
+msgid "Out forecast"
+msgstr "预测支出"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_out_payable
+msgid "Out payable"
+msgstr "应付款项"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_period_balance
+msgid "PERIOD BALANCE"
+msgstr "期间余额"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__partner_id
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__partner_id
+#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_forecast_line_view_search
+msgid "Partner"
+msgstr "业务伙伴"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__reconciled
+msgid "Reconciled"
+msgstr "已核销"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__state
+msgid "State"
+msgstr "状态"
+
+#. module: mis_builder_cash_flow
+#. odoo-python
+#: code:addons/mis_builder_cash_flow/models/mis_cash_flow_forecast_line.py:0
+#, python-format
+msgid "The Company and the Company of the Account must be the same."
+msgstr "公司和科目所属公司必须相同。"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,help:mis_builder_cash_flow.field_mis_cash_flow_forecast_line__account_id
+msgid "The account of the forecast line is only for informative purpose"
+msgstr "预测行的科目仅用于信息目的"
+
+#. module: mis_builder_cash_flow
+#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_form_view
+#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_tree_view
+msgid "Total"
+msgstr "总计"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__account_type
+msgid "Type"
+msgstr "类型"
+
+#. module: mis_builder_cash_flow
+#: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_search_view
+msgid "Unreconciled"
+msgstr "未核销"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.instance.period,name:mis_builder_cash_flow.mis_period_plus_fourth_month
+msgid "fourth month"
+msgstr "第四个月"
+
+#. module: mis_builder_cash_flow
+#: model:mis.report.instance.period,name:mis_builder_cash_flow.mis_period_plus_third_month
+msgid "third month"
+msgstr "第三个月"

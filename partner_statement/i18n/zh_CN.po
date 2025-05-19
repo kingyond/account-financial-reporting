@@ -1,0 +1,971 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * customer_activity_statement
+#
+# Translators:
+# OCA Transbot <transbot@odoo-community.org>, 2017
+# Gelo Joga Landoo <gj@landoo.es>, 2017
+# Pedro M. Baeza <pedro.baeza@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-22 16:14+0000\n"
+"PO-Revision-Date: 2023-10-09 09:09+0000\n"
+"Last-Translator: Kingyond <goole4me@gmail.com>\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.17\n"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#, python-format
+msgid "%(payable)sStatement between %(start)s and %(end)s in %(currency)s"
+msgstr "%(payable)s账单从%(start)s到%(end)s，以%(currency)s计"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#, python-format
+msgid "%(payable)sStatement up to %(end)s in %(currency)s"
+msgstr "%(payable)s账单截至%(end)s，以%(currency)s计"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#, python-format
+msgid "%(payable)sStatement up to %(prior_day)s in %(currency)s"
+msgstr "%(payable)s账单截至%(prior_day)s，以%(currency)s计"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+#, python-format
+msgid "1 - 30 Days"
+msgstr "1 - 30 天"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+#, python-format
+msgid "1 Month"
+msgstr "1 个月"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+#, python-format
+msgid "121 Days +"
+msgstr "超过 121 天"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+#, python-format
+msgid "2 Months"
+msgstr "2 个月"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+#, python-format
+msgid "3 Months"
+msgstr "3 个月"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+#, python-format
+msgid "31 - 60 Days"
+msgstr "31 - 60 天"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+#, python-format
+msgid "4 Months"
+msgstr "4 个月"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+#, python-format
+msgid "61 - 90 Days"
+msgstr "61 - 90 天"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+#, python-format
+msgid "91 - 120 Days"
+msgstr "91 - 120 天"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.statement_common_view
+msgid ""
+"<span class=\"o_form_label\">Aging details can be shown in the report, "
+"expressed in\n"
+"                        aging\n"
+"                        buckets, so the partner can review how much is open, "
+"due or overdue.\n"
+"                    </span>"
+msgstr ""
+"<span class=\"o_form_label\">账龄明细可以在报告中显示，按账龄区间划分，\n"
+"                        以便合作伙伴查看未结算、到期或逾期的金额。\n"
+"                    </span>"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_statement_wizard_view
+msgid ""
+"<span class=\"o_form_label\">The activity statement provides details of all "
+"activity on\n"
+"                    a partner's receivables and payables between two "
+"selected dates. This includes\n"
+"                    all invoices,\n"
+"                    refunds and payments. Any outstanding balance dated "
+"prior to the chosen\n"
+"                    statement\n"
+"                    period will appear as a forward balance at the top of "
+"the statement. The list is\n"
+"                    displayed in chronological order and is split by "
+"currencies.\n"
+"                </span>\n"
+"                <br/>\n"
+"                <br/>"
+msgstr ""
+"<span class=\"o_form_label\">活动报表提供合作伙伴在两个选定日期之间的应收和应付活动明细。\n"
+"                    包括所有发票、退款和付款。任何在选定报表期间之前的未结余额\n"
+"                    将作为期初余额显示在报表顶部。列表按时间顺序显示，并按货币划分。\n"
+"                </span>\n"
+"                <br/>\n"
+"                <br/>"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.detailed_activity_statement_wizard_view
+msgid ""
+"<span class=\"o_form_label\">The detailed activity statement is an extension "
+"of the\n"
+"                    activity statement, and intends to explain the "
+"transactions\n"
+"                    that have happened during the period, also providing "
+"with a Prior Balance\n"
+"                    section and an Ending Balance section.\n"
+"                </span>\n"
+"                <br/>\n"
+"                <br/>"
+msgstr ""
+"<span class=\"o_form_label\">详细活动报表是活动报表的扩展，旨在解释期间发生的交易，\n"
+"                    并提供期初余额部分和期末余额部分。\n"
+"                </span>\n"
+"                <br/>\n"
+"                <br/>"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_statement_wizard_view
+msgid ""
+"<span class=\"o_form_label\">The outstanding statement provides details of "
+"all partner's\n"
+"                    outstanding\n"
+"                    receivables and payables up to a particular date. This "
+"includes all unpaid\n"
+"                    invoices, unclaimed\n"
+"                    refunds and outstanding payments. The list is displayed "
+"in chronological order\n"
+"                    and is\n"
+"                    split by currencies.\n"
+"                </span>\n"
+"                <br/>\n"
+"                <br/>"
+msgstr ""
+"<span class=\"o_form_label\">未结报表提供合作伙伴截至特定日期的所有未结应收和应付明细。\n"
+"                    包括所有未支付的发票、未认领的退款和未结付款。列表按时间顺序显示，\n"
+"                    并按货币划分。\n"
+"                </span>\n"
+"                <br/>\n"
+"                <br/>"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_statement_document
+#: model_terms:ir.ui.view,arch_db:partner_statement.detailed_activity_statement_document
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_statement_document
+msgid "<strong>Date:</strong>"
+msgstr "<strong>日期：</strong>"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_statement_document
+#: model_terms:ir.ui.view,arch_db:partner_statement.detailed_activity_statement_document
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_statement_document
+msgid "<strong>Partner Code:</strong>"
+msgstr "<strong>合作伙伴代码：</strong>"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_statement_document
+#: model_terms:ir.ui.view,arch_db:partner_statement.detailed_activity_statement_document
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_statement_document
+msgid "<strong>Partner Name:</strong>"
+msgstr "<strong>合作伙伴名称：</strong>"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_statement_document
+#: model_terms:ir.ui.view,arch_db:partner_statement.detailed_activity_statement_document
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_statement_document
+msgid "<strong>The partner doesn't have due entries.</strong>"
+msgstr "<strong>该合作伙伴没有到期条目。</strong>"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__account_type
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__account_type
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__account_type
+#: model:ir.model.fields,field_description:partner_statement.field_statement_common_wizard__account_type
+msgid "Account Type"
+msgstr "账户类型"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: model:ir.actions.report,name:partner_statement.action_print_activity_statement
+#: model:ir.actions.report,name:partner_statement.action_print_activity_statement_html
+#, python-format
+msgid "Activity Statement"
+msgstr "活动报表"
+
+#. module: partner_statement
+#: model:ir.model,name:partner_statement.model_activity_statement_wizard
+msgid "Activity Statement Wizard"
+msgstr "活动报表向导"
+
+#. module: partner_statement
+#: model:ir.model,name:partner_statement.model_report_p_s_report_activity_statement_xlsx
+msgid "Activity Statement XLSL Report"
+msgstr "活动报表 XLSL 报告"
+
+#. module: partner_statement
+#: model:ir.actions.report,name:partner_statement.action_print_activity_statement_xlsx
+msgid "Activity Statement XLSX"
+msgstr "活动报表 XLSX"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.res_config_settings_view_form
+msgid "Activity Statements"
+msgstr "活动报表"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.res_config_settings_view_form
+msgid "Activity Statements show all transactions between two dates."
+msgstr "活动报表显示两个日期之间的所有交易。"
+
+#. module: partner_statement
+#: model:ir.model.fields.selection,name:partner_statement.selection__activity_statement_wizard__aging_type__days
+#: model:ir.model.fields.selection,name:partner_statement.selection__detailed_activity_statement_wizard__aging_type__days
+#: model:ir.model.fields.selection,name:partner_statement.selection__outstanding_statement_wizard__aging_type__days
+#: model:ir.model.fields.selection,name:partner_statement.selection__res_config_settings__default_aging_type__days
+#: model:ir.model.fields.selection,name:partner_statement.selection__statement_common_wizard__aging_type__days
+msgid "Age by Days"
+msgstr "按天计算账龄"
+
+#. module: partner_statement
+#: model:ir.model.fields.selection,name:partner_statement.selection__activity_statement_wizard__aging_type__months
+#: model:ir.model.fields.selection,name:partner_statement.selection__detailed_activity_statement_wizard__aging_type__months
+#: model:ir.model.fields.selection,name:partner_statement.selection__outstanding_statement_wizard__aging_type__months
+#: model:ir.model.fields.selection,name:partner_statement.selection__res_config_settings__default_aging_type__months
+#: model:ir.model.fields.selection,name:partner_statement.selection__statement_common_wizard__aging_type__months
+msgid "Age by Months"
+msgstr "按月计算账龄"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__aging_type
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__aging_type
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__aging_type
+#: model:ir.model.fields,field_description:partner_statement.field_res_config_settings__default_aging_type
+#: model:ir.model.fields,field_description:partner_statement.field_statement_common_wizard__aging_type
+msgid "Aging Method"
+msgstr "账龄方法"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.aging_buckets
+msgid "Aging Report at"
+msgstr "账龄报告于"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#, python-format
+msgid "Aging Report at %(end)s in %(currency)s"
+msgstr "账龄报告于%(end)s，以%(currency)s计"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+#, python-format
+msgid "Applied Amount"
+msgstr "应用金额"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
+#, python-format
+msgid "Balance"
+msgstr "余额"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+#, python-format
+msgid "Balance Forward"
+msgstr "期初余额"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.statement_common_view
+msgid "Cancel"
+msgstr "取消"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__company_id
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__company_id
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__company_id
+#: model:ir.model.fields,field_description:partner_statement.field_statement_common_wizard__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: partner_statement
+#: model:ir.model,name:partner_statement.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设置"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__create_uid
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__create_uid
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__create_date
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__create_date
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__create_date
+msgid "Created on"
+msgstr "创建于"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+#, python-format
+msgid "Current"
+msgstr "当前"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
+#, python-format
+msgid "Date"
+msgstr "日期"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__date_end
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__date_end
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__date_end
+#: model:ir.model.fields,field_description:partner_statement.field_statement_common_wizard__date_end
+msgid "Date End"
+msgstr "结束日期"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__date_start
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__date_start
+msgid "Date Start"
+msgstr "开始日期"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#, python-format
+msgid "Date:"
+msgstr "日期:"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
+#, python-format
+msgid "Description"
+msgstr "描述"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+msgid "Detailed"
+msgstr "详细"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#, python-format
+msgid ""
+"Detailed %(payable)sStatement between %(start)s and %(end)s in %(currency)s"
+msgstr ""
+"详细%(payable)s账单从%(start)s到%(end)s，以%(currency)s计"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: model:ir.actions.report,name:partner_statement.action_print_detailed_activity_statement
+#: model:ir.actions.report,name:partner_statement.action_print_detailed_activity_statement_html
+#, python-format
+msgid "Detailed Activity Statement"
+msgstr "详细活动报表"
+
+#. module: partner_statement
+#: model:ir.model,name:partner_statement.model_detailed_activity_statement_wizard
+msgid "Detailed Activity Statement Wizard"
+msgstr "详细活动报表向导"
+
+#. module: partner_statement
+#: model:ir.model,name:partner_statement.model_report_p_s_report_detailed_activity_statement_xlsx
+msgid "Detailed Activity Statement XLSL Report"
+msgstr "详细活动报表 XLSL 报告"
+
+#. module: partner_statement
+#: model:ir.actions.report,name:partner_statement.action_print_detailed_activity_statement_xlsx
+msgid "Detailed Activity Statement XLSX"
+msgstr "详细活动报表 XLSX"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__display_name
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__display_name
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__filter_partners_non_due
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__filter_partners_non_due
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__filter_partners_non_due
+#: model:ir.model.fields,field_description:partner_statement.field_statement_common_wizard__filter_partners_non_due
+msgid "Don't show partners with no due entries"
+msgstr "不显示没有到期条目的合作伙伴"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
+#, python-format
+msgid "Due Date"
+msgstr "到期日期"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_res_config_settings__group_activity_statement
+msgid "Enable OCA Activity & Detailed Activity Statements"
+msgstr "启用 OCA 活动和详细活动报表"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_res_config_settings__group_outstanding_statement
+msgid "Enable OCA Outstanding Statements"
+msgstr "启用 OCA 未结报表"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
+#, python-format
+msgid "Ending Balance"
+msgstr "期末余额"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__filter_negative_balances
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__filter_negative_balances
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__filter_negative_balances
+#: model:ir.model.fields,field_description:partner_statement.field_res_config_settings__default_filter_negative_balances
+#: model:ir.model.fields,field_description:partner_statement.field_statement_common_wizard__filter_negative_balances
+msgid "Exclude Negative Balances"
+msgstr "排除负余额"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_res_config_settings__default_filter_partners_non_due
+msgid "Exclude partners with no due entries"
+msgstr "排除没有到期条目的合作伙伴"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.statement_common_view
+msgid "Export PDF"
+msgstr "导出 PDF"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.statement_common_view
+msgid "Export XLSX"
+msgstr "导出 XLSX"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__id
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__id
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+#, python-format
+msgid "Initial Balance"
+msgstr "期初余额"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__write_uid
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__write_uid
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__write_date
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__write_date
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__write_date
+msgid "Last Updated on"
+msgstr "最后更新于"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__name
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__name
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__name
+#: model:ir.model.fields,field_description:partner_statement.field_statement_common_wizard__name
+msgid "Name"
+msgstr "名称"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__number_partner_ids
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__number_partner_ids
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__number_partner_ids
+#: model:ir.model.fields,field_description:partner_statement.field_statement_common_wizard__number_partner_ids
+msgid "Number Partner"
+msgstr "合作伙伴编号"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+#, python-format
+msgid "Older"
+msgstr "较早"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
+#, python-format
+msgid "Open Amount"
+msgstr "未结金额"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
+#, python-format
+msgid "Original"
+msgstr "原始"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+#, python-format
+msgid "Original Amount"
+msgstr "原始金额"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: model:ir.actions.report,name:partner_statement.action_print_outstanding_statement
+#: model:ir.actions.report,name:partner_statement.action_print_outstanding_statement_html
+#: model_terms:ir.ui.view,arch_db:partner_statement.res_config_settings_view_form
+#, python-format
+msgid "Outstanding Statement"
+msgstr "未结报表"
+
+#. module: partner_statement
+#: model:ir.model,name:partner_statement.model_outstanding_statement_wizard
+msgid "Outstanding Statement Wizard"
+msgstr "未结报表向导"
+
+#. module: partner_statement
+#: model:ir.model,name:partner_statement.model_report_p_s_report_outstanding_statement_xlsx
+msgid "Outstanding Statement XLSL Report"
+msgstr "未结报表 XLSL 报告"
+
+#. module: partner_statement
+#: model:ir.actions.report,name:partner_statement.action_print_outstanding_statement_xlsx
+msgid "Outstanding Statement XLSX"
+msgstr "未结报表 XLSX"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.res_config_settings_view_form
+msgid "Outstanding Statements show all transactions up to a date."
+msgstr "未结报表显示截至某日期的所有交易。"
+
+#. module: partner_statement
+#: model:ir.actions.act_window,name:partner_statement.activity_statement_wizard_action
+#: model:ir.model,name:partner_statement.model_report_partner_statement_activity_statement
+msgid "Partner Activity Statement"
+msgstr "合作伙伴活动报表"
+
+#. module: partner_statement
+#: model:ir.actions.act_window,name:partner_statement.detailed_activity_statement_wizard_action
+#: model:ir.model,name:partner_statement.model_report_partner_statement_detailed_activity_statement
+msgid "Partner Detailed Activity Statement"
+msgstr "合作伙伴详细活动报表"
+
+#. module: partner_statement
+#: model:ir.actions.act_window,name:partner_statement.outstanding_statement_wizard_action
+#: model:ir.model,name:partner_statement.model_report_partner_statement_outstanding_statement
+msgid "Partner Outstanding Statement"
+msgstr "合作伙伴未结报表"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.res_config_settings_view_form
+msgid "Partner Statements"
+msgstr "合作伙伴报表"
+
+#. module: partner_statement
+#: model:ir.model.fields.selection,name:partner_statement.selection__activity_statement_wizard__account_type__liability_payable
+#: model:ir.model.fields.selection,name:partner_statement.selection__detailed_activity_statement_wizard__account_type__liability_payable
+#: model:ir.model.fields.selection,name:partner_statement.selection__outstanding_statement_wizard__account_type__liability_payable
+#: model:ir.model.fields.selection,name:partner_statement.selection__statement_common_wizard__account_type__liability_payable
+msgid "Payable"
+msgstr "应付"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement.py:0
+#, python-format
+msgid "Payment"
+msgstr "付款"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.res_config_settings_view_form
+msgid "Please set defaults under Activity Statements."
+msgstr "请在活动报表下设置默认值。"
+
+#. module: partner_statement
+#: model:ir.model.fields.selection,name:partner_statement.selection__activity_statement_wizard__account_type__asset_receivable
+#: model:ir.model.fields.selection,name:partner_statement.selection__detailed_activity_statement_wizard__account_type__asset_receivable
+#: model:ir.model.fields.selection,name:partner_statement.selection__outstanding_statement_wizard__account_type__asset_receivable
+#: model:ir.model.fields.selection,name:partner_statement.selection__statement_common_wizard__account_type__asset_receivable
+msgid "Receivable"
+msgstr "应收"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#, python-format
+msgid "Reference Number"
+msgstr "参考编号"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
+msgid "Reference number"
+msgstr "参考编号"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__show_aging_buckets
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__show_aging_buckets
+#: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__show_aging_buckets
+#: model:ir.model.fields,field_description:partner_statement.field_res_config_settings__default_show_aging_buckets
+#: model:ir.model.fields,field_description:partner_statement.field_statement_common_wizard__show_aging_buckets
+msgid "Show Aging Buckets"
+msgstr "显示账龄区间"
+
+#. module: partner_statement
+#: model:ir.model.fields,field_description:partner_statement.field_detailed_activity_statement_wizard__show_balance
+msgid "Show Balance column"
+msgstr "显示余额列"
+
+#. module: partner_statement
+#: model:ir.model,name:partner_statement.model_statement_common
+msgid "Statement Reports Common"
+msgstr "报表通用"
+
+#. module: partner_statement
+#: model:ir.model,name:partner_statement.model_statement_common_wizard
+msgid "Statement Reports Common Wizard"
+msgstr "报表通用向导"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+msgid "Statement between"
+msgstr "报表期间"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#, python-format
+msgid "Statement from:"
+msgstr "报表从:"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_statement_document
+#: model_terms:ir.ui.view,arch_db:partner_statement.detailed_activity_statement_document
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_statement_document
+msgid "Statement of Account"
+msgstr "账户报表"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#, python-format
+msgid "Statement of Account from %s"
+msgstr "账户报表从 %s"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#, python-format
+msgid "Statement to:"
+msgstr "报表至:"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+msgid "Supplier"
+msgstr "供应商"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#, python-format
+msgid "Supplier "
+msgstr "供应商 "
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/report_statement_common.py:0
+#, python-format
+msgid "Total"
+msgstr "总计"
+
+#. module: partner_statement
+#: model:res.groups,name:partner_statement.group_activity_statement
+msgid "Use activity statements"
+msgstr "使用活动报表"
+
+#. module: partner_statement
+#: model:res.groups,name:partner_statement.group_outstanding_statement
+msgid "Use outstanding statements"
+msgstr "使用未结报表"
+
+#. module: partner_statement
+#. odoo-python
+#: code:addons/partner_statement/report/activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#, python-format
+msgid "VAT:"
+msgstr "增值税:"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.statement_common_view
+msgid "View"
+msgstr "查看"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+msgid "and"
+msgstr "和"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
+#: model_terms:ir.ui.view,arch_db:partner_statement.aging_buckets
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
+msgid "in"
+msgstr "在"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.statement_common_view
+msgid "or"
+msgstr "或"
+
+#. module: partner_statement
+#: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
+msgid "up to"
+msgstr "截至"
+
+#~ msgid ""
+#~ "<span class=\"o_form_label\">Aging details can be shown in the report, "
+#~ "expressed in aging\n"
+#~ "        buckets, so the partner can review how much is open, due or "
+#~ "overdue.\n"
+#~ "                    </span>"
+#~ msgstr ""
+#~ "<span class=\"o_form_label\">账龄明细可以在报告中显示，按账龄区间划分，\n"
+#~ "                    以便合作伙伴查看未结算、到期或逾期的金额。\n"
+#~ "                               </span>"
+
+#~ msgid ""
+#~ "<span class=\"o_form_label\">The activity statement provides details of "
+#~ "all activity on\n"
+#~ "                    a partner's receivables and payables between two "
+#~ "selected dates. This includes all invoices,\n"
+#~ "                    refunds and payments. Any outstanding balance dated "
+#~ "prior to the chosen statement\n"
+#~ "                    period will appear as a forward balance at the top of "
+#~ "the statement. The list is\n"
+#~ "                    displayed in chronological order and is split by "
+#~ "currencies.\n"
+#~ "                </span>\n"
+#~ "                <br/>\n"
+#~ "                <br/>"
+#~ msgstr ""
+#~ "<span class=\"o_form_label\">活动报表提供合作伙伴在两个选定日期之间的应收和应付活动明细。\n"
+#~ "                    包括所有发票、退款和付款。任何在选定报表期间之前的未结余额\n"
+#~ "                    将作为期初余额显示在报表顶部。列表按时间顺序显示，并按货币划分。\n"
+#~ "                </span>\n"
+#~ "                <br/>\n"
+#~ "                <br/>"
+
+#~ msgid ""
+#~ "<span class=\"o_form_label\">The detailed activity statement is an "
+#~ "extension of the activity statement, and intends to explain the "
+#~ "transactions\n"
+#~ "that have happened during the period, also providing with a Prior Balance "
+#~ "section and an Ending Balance section.\n"
+#~ "                </span>\n"
+#~ "                <br/>\n"
+#~ "                <br/>"
+#~ msgstr ""
+#~ "<span class=\"o_form_label\">详细活动报表是活动报表的扩展，旨在解释期间发生的交易，\n"
+#~ "                    并提供期初余额部分和期末余额部分。\n"
+#~ "                </span>\n"
+#~ "                <br/>\n"
+#~ "                <br/>"
+
+#~ msgid ""
+#~ "<span class=\"o_form_label\">The outstanding statement provides details "
+#~ "of all partner's outstanding\n"
+#~ "        receivables and payables up to a particular date. This includes "
+#~ "all unpaid invoices, unclaimed\n"
+#~ "        refunds and outstanding payments. The list is displayed in "
+#~ "chronological order and is\n"
+#~ "        split by currencies.\n"
+#~ "                </span>\n"
+#~ "                <br/>\n"
+#~ "                <br/>"
+#~ msgstr ""
+#~ "<span class=\"o_form_label\">未结报表提供合作伙伴截至特定日期的所有未结应收和应付明细。\n"
+#~ "                    包括所有未支付的发票、未认领的退款和未结付款。列表按时间顺序显示，\n"
+#~ "                    并按货币划分。\n"
+#~ "                </span>\n"
+#~ "                <br/>\n"
+#~ "                <br/>"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Última modificación en"
+
+#, python-format
+#~ msgid "%sStatement between %s and %s in %s"
+#~ msgstr "%sDeclaración entre %s y %s en %s"
+
+#, python-format
+#~ msgid "%sStatement up to %s in %s"
+#~ msgstr "%sDeclaración hasta %s en %s"
+
+#~ msgid "Account type"
+#~ msgstr "Tipo de cuenta"
+
+#, python-format
+#~ msgid "Aging Report at %s in %s"
+#~ msgstr "Informe de antigüedad %s en %s"
+
+#~ msgid "Amount"
+#~ msgstr "Importe"
+
+#~ msgid "Enable OCA Activity Statements"
+#~ msgstr "Activar Informe OCA Estado Cuenta"
+
+#~ msgid "Statement up to"
+#~ msgstr "Informe hasta"
+
+#~ msgid ""
+#~ "Aging details can be shown in the report, expressed in aging         "
+#~ "buckets, so the partner can review how much is open, due or overdue."
+#~ msgstr ""
+#~ "Los detalles de antigüedad pueden mostrarse en el informe en forma de "
+#~ "rangos         de antigüedad, de tal forma que el cliente pueda revisar "
+#~ "cuánto está pendiente, vencido o sobrepasado."
+
+#~ msgid ""
+#~ "The activity statement provides details of all activity "
+#~ "on                     a partner's receivables and payables between two "
+#~ "selected dates. This includes all invoices,                     refunds "
+#~ "and payments. Any outstanding balance dated prior to the chosen "
+#~ "statement                     period will appear as a forward balance at "
+#~ "the top of the statement. The list is                     displayed in "
+#~ "chronological order and is split by currencies."
+#~ msgstr ""
+#~ "El estado de la cuenta proporciona detalles de toda la actividad "
+#~ "en                     las cuentas por cobrar y por pagar del cliente "
+#~ "entre dos fechas seleccionadas. Esto incluye todas las "
+#~ "facturas,                     reembolsos y pagos. Cualquier saldo "
+#~ "pendiente con fecha anterior al                     período seleccionado "
+#~ "aparecerá como un saldo arrastrado en la parte superior del estado de la "
+#~ "cuenta. La lista es                     mostrada en orden cronológico y "
+#~ "separada por monedas."
+
+#~ msgid ""
+#~ "The outstanding statement provides details of all partner's "
+#~ "outstanding         receivables and payables up to a particular date. "
+#~ "This includes all unpaid invoices, unclaimed         refunds and "
+#~ "outstanding payments. The list is displayed in chronological order and "
+#~ "is         split by currencies."
+#~ msgstr ""
+#~ "El pendiente del estado de cuenta proporciona detalles de todas las "
+#~ "cuentas pendientes         por cobrar y por pagar hasta una fecha en "
+#~ "particular. Esto incluye todas las facturas impagadas, los "
+#~ "reembolsos         no reclamados y pagos pendientes. La lista          es "
+#~ "mostrada en orden cronológico y separada por monedas."
+
+#~ msgid "report.partner_statement.activity_statement"
+#~ msgstr "report.partner_statement.activity_statement"
+
+#~ msgid "report.partner_statement.outstanding_statement"
+#~ msgstr "report.partner_statement.outstanding_statement"
+
+#~ msgid "Balance Due"
+#~ msgstr "Saldo"
+
+#~ msgid "Partner ref:"
+#~ msgstr "Ref. de Cliente:"
